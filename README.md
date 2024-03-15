@@ -1,4 +1,4 @@
-![Screenshot 2024-03-15 232424](https://github.com/Rohan1540/Exploratory-Analysis-On-Geolocation-data/assets/96494363/5100a1a7-f5d5-4bad-be06-ebc94343bffd)# Exploratory-Analysis-On-Geolocation-data
+# Exploratory-Analysis-On-Geolocation-data
 This project involves the use of K-Means Clustering to find the best accommodation for students in Hyderabad by classifying accommodation for incoming students on the basis of their preferences on amenities, budget and proximity to the location.
 
 The Project has different stages which are mentioned in the flow diagram below:
