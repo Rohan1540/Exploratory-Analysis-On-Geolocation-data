@@ -19,4 +19,15 @@ Out of 70 different Columns selecting the most necessary data columns required f
 A Box-plot graph can be helpful to look at distributed groups. It can tell us at glance where the population is concentrated, and how the outliers are as compare to the average object in the group.
 ![Screenshot (261)](https://github.com/Rohan1540/Exploratory-Analysis-On-Geolocation-data/assets/96494363/0f69f9ec-77b4-4a52-9773-04ac211b02f7)
 
+K Means Clustering will help us group locations based on the amenities located around them. For example, a location with a high amount of shops nearby will be labeled "Amenity Rich" while a location with less amenities will be labeled "Amenity Poor". Similar locations will be grouped (clustered) together.
+![Screenshot (262)](https://github.com/Rohan1540/Exploratory-Analysis-On-Geolocation-data/assets/96494363/6131a05c-3d39-486c-9719-913594ba3358)
+
+Now since we have the optimal clusters then we would get access to the FourSquare API for the geolocation data which is necessary for plotting in the map because from there based upon the clusters we can extract the longitude and latitude as well as the type of the aminities provided in that particular sector of data.
+![Screenshot 2024-03-15 231014](https://github.com/Rohan1540/Exploratory-Analysis-On-Geolocation-data/assets/96494363/57fe076b-fc57-4ef1-8589-59fa29d9d1d3)
+
+As from the above screen-shot we can observe the data flowing through the API and hence providing the data necessary for further operations, here the use of FourSquare V2 version of the API is used which is depreciated but somehow it worked for the project so the saying "IF IT WORKS THEN DONT TOUCH IT" helped me 😅, Now the data is formatted correctly for further processing so that the data which is not required is removed and we can get the valid data for the aminities.
+![Screenshot 2024-03-15 231721](https://github.com/Rohan1540/Exploratory-Analysis-On-Geolocation-data/assets/96494363/b949e1c5-1c85-4a4f-8b77-93ee48e1e23b)
+![Screenshot 2024-03-15 231014](https://github.com/Rohan1540/Exploratory-Analysis-On-Geolocation-data/assets/96494363/1388ba12-89e6-4996-93db-b08b77e4cf6d)
+
+
 
